@@ -89,6 +89,7 @@ const AssetForm = () => {
             <select
               className="form-select"
               id="type"
+              name="type"
               value={inputValues.type}
               onChange={handleInputChange}
             >
